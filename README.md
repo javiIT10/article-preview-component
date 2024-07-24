@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./design/Screenshot%202024-07-24%20at%2014-04-09%20Frontend%20Mentor%20Article%20preview%20component.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/article-preview-component-using-tailwind-css-jAMDBC9cKg](https://www.frontendmentor.io/solutions/article-preview-component-using-tailwind-css-jAMDBC9cKg)
+- Live Site URL: [https://javiit10.github.io/article-preview-component/](https://javiit10.github.io/article-preview-component/)
 
 ## My process
 
@@ -42,4 +42,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [javiIT10](https://www.frontendmentor.io/profile/javiIT10)

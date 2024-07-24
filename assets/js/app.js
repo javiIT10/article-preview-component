@@ -12,8 +12,8 @@ function initialize() {
       btnCloseShare.classList.remove("hidden");
       btnCloseShare.classList.add("disabled", "grid");
 
-      shareContainer.classList.remove("hidden");
-      shareContainer.classList.add("block");
+      shareContainer.classList.remove("hidden", "buttom-[-100%]");
+      shareContainer.classList.add("block", "bottom-0", "lg:bottom-[83px]");
     }
   });
 
@@ -26,8 +26,8 @@ function initialize() {
       btnOpenShare.classList.remove("hidden");
       btnOpenShare.classList.add("disabled", "grid");
 
-      shareContainer.classList.remove("block");
-      shareContainer.classList.add("hidden");
+      shareContainer.classList.remove("block", "bottom-0", "lg:bottom-[83px]");
+      shareContainer.classList.add("hidden", "buttom-[-100%]");
     }
   });
 }
