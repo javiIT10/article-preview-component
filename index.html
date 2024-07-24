@@ -18,5 +18,95 @@
     <!-- TITLE -->
     <title>Frontend Mentor | Article preview component</title>
   </head>
-  <body></body>
+  <body
+    class="h-dvh grid place-items-center font-manrope bg-light-grayish-blue"
+  >
+    <!-- CARD -->
+    <article
+      class="max-w-[326px] rounded-lg bg-white relative lg:max-w-[730px] lg:flex"
+    >
+      <img
+        src="images/drawers.jpg"
+        alt="drawers"
+        class="rounded-t-lg lg:rounded-none lg:rounded-l-lg w-full lg:w-[285px]"
+      />
+
+      <!-- CONTENT -->
+      <main class="lg:flex lg:flex-col lg:pl-[8px]">
+        <section class="px-[32px] mt-[30px]">
+          <h1
+            class="text-[16.5px] lg:text-[21px] text-very-dark-grayish-blue font-bold leading-normal"
+          >
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h1>
+          <p
+            class="text-[13.3px] font-medium text-desaturated-dark-blue py-[18px] leading-normal"
+          >
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
+          </p>
+        </section>
+
+        <footer
+          class="px-[32px] py-[18px] mt-[13px] flex justify-between items-center"
+        >
+          <div class="flex gap-[15px]">
+            <img
+              src="images/avatar-michelle.jpg"
+              alt="avatar-michelle"
+              class="w-[40px] rounded-full"
+            />
+            <div>
+              <h3 class="text-[13.3px] text-very-dark-grayish-blue font-bold">
+                Michelle Appleton
+              </h3>
+              <p class="text-[11px] text-desaturated-dark-blue font-medium">
+                28 Jun 2020
+              </p>
+            </div>
+          </div>
+          <a
+            href=""
+            class="w-[35px] h-[35px] rounded-full bg-light-grayish-blue grid place-items-center"
+            id="btnOpenShare"
+          >
+            <img src="images/icon-share.svg" alt="icon-share" />
+          </a>
+          <a
+            href=""
+            class="w-[35px] h-[35px] rounded-full bg-grayish-blue hidden place-items-center"
+            id="btnCloseShare"
+          >
+            <img src="images/icon-close-share.svg" alt="icon-close-share" />
+          </a>
+        </footer>
+      </main>
+
+      <div
+        class="bg-very-dark-grayish-blue absolute bottom-0 rounded-b-lg w-full px-[32px] h-[76px] lg:h-[54px] lg:w-[247px] lg:rounded-lg lg:bottom-[83px] lg:right-[-63px]"
+      >
+        <div
+          class="w-[60%] lg:w-[100%] h-full flex justify-between items-center"
+        >
+          <p class="text-grayish-blue uppercase text-[13.3px]">Share</p>
+          <a href="">
+            <img src="images/icon-facebook.svg" alt="icon-facebook" />
+          </a>
+          <a href=""
+            ><img src="images/icon-twitter.svg" alt="icon-twitter"
+          /></a>
+          <a href="">
+            <img src="images/icon-pinterest.svg" alt="icon-pinterest" />
+          </a>
+          <div
+            class="w-[25px] h-[25px] bg-very-dark-grayish-blue absolute left-[120px] bottom-[-10px] rotate-45"
+          ></div>
+        </div>
+      </div>
+      <!-- CONTENT -->
+    </article>
+    <!-- CARD -->
+  </body>
 </html>
