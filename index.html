@@ -32,7 +32,7 @@
       />
 
       <!-- CONTENT -->
-      <main class="lg:flex lg:flex-col lg:pl-[8px]">
+      <main class="lg:flex lg:flex-col lg:pl-[8px transition-all">
         <section class="px-[32px] mt-[30px]">
           <h1
             class="text-[16.5px] lg:text-[21px] text-very-dark-grayish-blue font-bold leading-normal"
@@ -69,14 +69,14 @@
           </div>
           <a
             href=""
-            class="w-[35px] h-[35px] rounded-full bg-light-grayish-blue grid place-items-center"
+            class="w-[35px] h-[35px] rounded-full bg-light-grayish-blue grid place-items-center disabled"
             id="btnOpenShare"
           >
             <img src="images/icon-share.svg" alt="icon-share" />
           </a>
           <a
             href=""
-            class="w-[35px] h-[35px] rounded-full bg-grayish-blue hidden place-items-center"
+            class="w-[35px] h-[35px] rounded-full bg-grayish-blue hidden place-items-center relative z-10"
             id="btnCloseShare"
           >
             <img src="images/icon-close-share.svg" alt="icon-close-share" />
@@ -85,7 +85,8 @@
       </main>
 
       <div
-        class="bg-very-dark-grayish-blue absolute bottom-0 rounded-b-lg w-full px-[32px] h-[76px] lg:h-[54px] lg:w-[247px] lg:rounded-lg lg:bottom-[83px] lg:right-[-63px]"
+        class="bg-very-dark-grayish-blue absolute bottom-0 rounded-b-lg w-full px-[32px] h-[76px] lg:h-[54px] lg:w-[247px] lg:rounded-lg lg:bottom-[83px] lg:right-[-63px] hidden transition-all"
+        id="shareContainer"
       >
         <div
           class="w-[60%] lg:w-[100%] h-full flex justify-between items-center"
@@ -101,12 +102,14 @@
             <img src="images/icon-pinterest.svg" alt="icon-pinterest" />
           </a>
           <div
-            class="w-[25px] h-[25px] bg-very-dark-grayish-blue absolute left-[120px] bottom-[-10px] rotate-45"
+            class="hidden lg:block w-[25px] h-[25px] bg-very-dark-grayish-blue absolute left-[120px] bottom-[-10px] rotate-45"
           ></div>
         </div>
       </div>
       <!-- CONTENT -->
     </article>
     <!-- CARD -->
+
+    <script src="assets/js/app.js"></script>
   </body>
 </html>

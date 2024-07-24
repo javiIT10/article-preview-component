@@ -588,6 +588,10 @@ video {
   left: 120px;
 }
 
+.z-10{
+  z-index: 10;
+}
+
 .mt-\[13px\]{
   margin-top: 13px;
 }
@@ -773,6 +777,12 @@ video {
   color: hsl(217 19% 35% / var(--tw-text-opacity));
 }
 
+.transition-all{
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 @media (min-width: 1024px){
   .lg\:bottom-\[83px\]{
     bottom: 83px;
@@ -780,6 +790,10 @@ video {
 
   .lg\:right-\[-63px\]{
     right: -63px;
+  }
+
+  .lg\:block{
+    display: block;
   }
 
   .lg\:flex{
